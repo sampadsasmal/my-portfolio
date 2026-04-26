@@ -4,17 +4,17 @@
   "theme_color": "#020617",
   "background_color": "#020617",
   "display": "standalone",
-  "scope": "./",
-  "start_url": "./",
+  "scope": "/my-portfolio/",
+  "start_url": "/my-portfolio/",
   "icons": [
     {
-      "src": "photos/IMG_1910.JPG",
+      "src": "/my-portfolio/photos/IMG_1910.JPG",
       "sizes": "192x192",
       "type": "image/jpeg",
       "purpose": "any"
     },
     {
-      "src": "photos/IMG_1910.JPG",
+      "src": "/my-portfolio/photos/IMG_1910.JPG",
       "sizes": "512x512",
       "type": "image/jpeg",
       "purpose": "any"

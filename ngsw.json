@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1777205574750,
+  "timestamp": 1777205779704,
   "index": "/my-portfolio/index.csr.html",
   "assetGroups": [
     {
@@ -51,10 +51,10 @@
     "/my-portfolio/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/my-portfolio/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/my-portfolio/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/my-portfolio/index.csr.html": "d051833a61a9daeaabd0c648adf1e02bd9966fdb",
-    "/my-portfolio/index.html": "064c6084957ad0c33470391142141287f83a6787",
+    "/my-portfolio/index.csr.html": "823d99c3eb0fa4ceff15b6f64c62bdcf677b60d2",
+    "/my-portfolio/index.html": "b2c7e234e4ab8e5a63c19006438add6f2e7ce6a5",
     "/my-portfolio/main-JJVPJWAS.js": "0702122125902d6ee4ae3704ff9f867f9de10ffa",
-    "/my-portfolio/manifest.webmanifest": "d1121124c86f0212677a960f28229887f51158fa",
+    "/my-portfolio/manifest.webmanifest": "25874c051721d84df3715dc043c54686c02c63ed",
     "/my-portfolio/styles-Y4OK4QUS.css": "3566763e59410e725745b338c763f66931c4f59c"
   },
   "navigationUrls": [
