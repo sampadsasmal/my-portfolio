@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1777203970917,
+  "timestamp": 1777204966177,
   "index": "/my-portfolio/index.csr.html",
   "assetGroups": [
     {
@@ -14,9 +14,9 @@
         "/my-portfolio/favicon.ico",
         "/my-portfolio/index.csr.html",
         "/my-portfolio/index.html",
-        "/my-portfolio/main-CAJ2SOWV.js",
+        "/my-portfolio/main-XYJ3U4A6.js",
         "/my-portfolio/manifest.webmanifest",
-        "/my-portfolio/styles-XATHYSSX.css"
+        "/my-portfolio/styles-3ML5UCSA.css"
       ],
       "patterns": []
     },
@@ -51,11 +51,11 @@
     "/my-portfolio/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/my-portfolio/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/my-portfolio/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/my-portfolio/index.csr.html": "7b1cd109658de1de4d0a47d6461546d8a600375a",
-    "/my-portfolio/index.html": "f27c21e360c80adc67bb09904526687b0e6a26c1",
-    "/my-portfolio/main-CAJ2SOWV.js": "f125acb6bd8e1da5b8d94ff3fd638d56697b56a2",
+    "/my-portfolio/index.csr.html": "71935960ed5a989342002ceef2df77e44ae13538",
+    "/my-portfolio/index.html": "dff700b66d529acb2ec6420f21840dfc56a87e83",
+    "/my-portfolio/main-XYJ3U4A6.js": "446bd5b99a150d91c475aad7adc180f5f2064c64",
     "/my-portfolio/manifest.webmanifest": "9c9a7383433b7a908824d7bed76bbd009401ad6c",
-    "/my-portfolio/styles-XATHYSSX.css": "12210e33f459c5cceb5feced0edf5a13b102c161"
+    "/my-portfolio/styles-3ML5UCSA.css": "93bb4be62977a7ae83f092450a07742b4ebfb710"
   },
   "navigationUrls": [
     {
