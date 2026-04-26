@@ -1,0 +1,106 @@
+<section id="about" class="py-20 md:py-32 relative overflow-hidden bg-slate-950">
+  
+  <!-- Architectural SVG Traces - Hidden on Mobile for Performance -->
+  <svg class="absolute inset-0 w-full h-full pointer-events-none opacity-20 hidden md:block" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="trace-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:rgb(59, 130, 246);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(52, 211, 153);stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <path d="M 100 200 L 300 200 L 350 150 L 600 150" stroke="url(#trace-grad)" stroke-width="0.5" fill="none" class="animate-[dash_10s_linear_infinite]" />
+    <path d="M 800 600 L 1000 600 L 1050 650 L 1200 650" stroke="url(#trace-grad)" stroke-width="0.5" fill="none" class="animate-[dash_8s_linear_infinite]" />
+  </svg>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+    <div class="grid lg:grid-cols-12 gap-16 lg:gap-24 items-center">
+      
+      <!-- Unique Image Area with Optimized 3D Tilt -->
+      <div class="lg:col-span-5 perspective-1000 order-2 lg:order-1">
+        <div #tiltCard 
+             class="relative group transition-transform duration-300 ease-out will-change-transform max-w-sm mx-auto lg:max-w-none">
+          
+          <!-- Outer Halo Glow -->
+          <div class="absolute -inset-4 bg-gradient-to-tr from-blue-500/10 to-emerald-500/10 rounded-[2.5rem] blur-3xl opacity-50 group-hover:opacity-100 transition duration-700"></div>
+          
+          <!-- Main Architectural Frame -->
+          <div class="relative aspect-[4/5] w-full bg-slate-900 rounded-[2rem] md:rounded-[2.5rem] rounded-tr-none overflow-hidden border border-slate-800 shadow-2xl">
+            
+            <!-- Technical Metadata Tags -->
+            <div class="absolute top-6 left-6 flex flex-col gap-2 z-40 pointer-events-none">
+              <span class="px-3 py-1 bg-slate-950/70 backdrop-blur-md border border-blue-500/20 text-blue-400 text-[8px] font-mono uppercase tracking-[0.2em] rounded-md flex items-center gap-2">
+                <span class="w-1 h-1 bg-blue-400 rounded-full animate-pulse"></span>
+                IDENTITY: SAMPAD_SASMAL
+              </span>
+            </div>
+
+            <!-- Your Photo -->
+            <img src="photos/IMG_1910.JPG" alt="Sampad Sasmal" 
+                 class="w-full h-full object-cover transition-all duration-1000 saturate-[0.3] group-hover:saturate-[0.8] group-hover:scale-105"
+                 style="object-position: center 8%;">
+
+            <!-- Overlay for better contrast -->
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent z-20"></div>
+          </div>
+
+          <!-- Floating HUD Experience Badge -->
+          <div class="absolute -bottom-6 -right-4 md:-right-6 bg-slate-900/95 backdrop-blur-xl border border-slate-800 p-5 md:p-6 rounded-[1.5rem] md:rounded-[2rem] shadow-2xl z-50">
+            <div class="flex items-center gap-4 md:gap-5">
+              <div class="text-center">
+                <span class="block text-3xl md:text-4xl font-black text-white tracking-tighter">11</span>
+                <span class="text-[7px] md:text-[8px] text-blue-500 uppercase font-bold tracking-widest">Years</span>
+              </div>
+              <div class="w-px h-8 md:h-10 bg-slate-800"></div>
+              <div class="text-left">
+                <p class="text-[10px] md:text-xs text-white font-black uppercase tracking-widest leading-none">Senior</p>
+                <p class="text-[8px] md:text-[9px] text-slate-500 font-medium mt-1">Lead Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content Area -->
+      <div class="lg:col-span-7 order-1 lg:order-2">
+        <div class="flex flex-col mb-10 md:mb-12">
+          <h2 class="text-blue-500 font-bold uppercase tracking-[0.3em] text-[10px] mb-4">Identity Discovery</h2>
+          <h3 class="text-4xl sm:text-5xl lg:text-7xl font-black text-white tracking-tighter leading-[1.1] md:leading-none mb-6">
+            Engineering <span class="text-slate-700 italic">Philosophy.</span>
+          </h3>
+          <p class="text-slate-500 max-w-sm text-sm font-medium leading-relaxed">
+            An 11-year odyssey focused on the convergence of scale and simplicity in complex systems.
+          </p>
+        </div>
+        
+        <div class="max-w-2xl space-y-6 md:space-y-8 text-lg md:text-xl text-slate-400 leading-relaxed font-light">
+          <p>
+            An 11-year engineering odyssey focused on the **convergence of scale and simplicity**. I design the core infrastructures that enable teams to ship excellence.
+          </p>
+          
+          <div class="grid sm:grid-cols-2 gap-8 md:gap-12 py-8 md:py-10 border-y border-slate-900/50">
+            <div class="relative pl-6 border-l border-blue-500/30">
+              <p class="text-white font-bold mb-2 md:mb-3 uppercase text-xs tracking-[0.2em]">Strategy</p>
+              <p class="text-sm leading-relaxed text-slate-500">Building autonomous, self-healing frontend ecosystems that scale effortlessly.</p>
+            </div>
+            <div class="relative pl-6 border-l border-emerald-500/30">
+              <p class="text-white font-bold mb-2 md:mb-3 uppercase text-xs tracking-[0.2em]">Output</p>
+              <p class="text-sm leading-relaxed text-slate-500">Delivering millisecond-perfect experiences through extreme optimization.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 md:mt-12 flex flex-wrap items-center gap-6 md:gap-8">
+          <a href="#contact" class="group relative w-full sm:w-auto px-10 md:px-12 py-5 md:py-6 bg-white text-slate-950 font-black uppercase text-xs tracking-[0.3em] rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_20px_40px_rgba(255,255,255,0.1)] text-center">
+            <span class="relative z-10">Contact_Lead</span>
+            <div class="absolute inset-0 bg-blue-500 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+          </a>
+          <a href="#experience" class="w-full sm:w-auto text-slate-500 hover:text-white font-bold uppercase text-[10px] tracking-[0.4em] transition-all flex items-center justify-center gap-4 group">
+            CORE_LOGIC
+            <div class="w-12 h-[1px] bg-slate-800 group-hover:w-20 group-hover:bg-blue-500 transition-all duration-500"></div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
